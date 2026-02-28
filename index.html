@@ -3,118 +3,174 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Deccan Queen on Rails</title>
+    <title>Deccan Queen on Rails | Premier Global Ruby Event</title>
     <meta
       name="description"
-      content="Deccan Queen on Rails — a flagship Ruby on Rails conference in Pune for global engineering leaders, founders, and product builders."
+      content="Deccan Queen on Rails is a premier Ruby on Rails event in Pune for global engineering leaders, founders, and high-growth teams."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="site-header">
+    <header class="site-header" id="top-header">
       <div class="container nav-wrap">
-        <a href="#home" class="brand">
+        <a
+          href="#home"
+          class="brand js-scroll-link"
+          aria-label="Deccan Queen on Rails home"
+        >
           <span class="brand-mark" aria-hidden="true"></span>
           <span>
             <strong>Deccan Queen</strong>
             <small>on Rails</small>
           </span>
         </a>
+
         <nav class="site-nav" aria-label="Primary">
-          <a href="#about">About</a>
-          <a href="#speakers">Speakers</a>
-          <a href="#schedule">Schedule</a>
-          <a href="#venue">Venue</a>
-          <a href="#sponsors">Sponsors</a>
-          <a href="#contact">Contact</a>
+          <a href="#about" class="js-scroll-link">About</a>
+          <a href="#speakers" class="js-scroll-link">Speakers</a>
+          <a href="#schedule" class="js-scroll-link">Schedule</a>
+          <a href="#venue" class="js-scroll-link">Venue</a>
+          <a href="#sponsors" class="js-scroll-link">Sponsors</a>
+          <a href="#contact" class="js-scroll-link">Contact</a>
         </nav>
-        <a href="#contact" class="btn btn-outline">Register Interest</a>
+
+        <a href="#contact" class="btn btn-light js-scroll-link"
+          >Register Interest</a
+        >
       </div>
     </header>
 
     <main>
-      <section id="home" class="hero">
-        <div class="hero-overlay"></div>
+      <section id="home" class="hero page-section">
         <div class="container hero-grid">
           <div>
-            <p class="eyebrow">Pune · India · Global Audience</p>
+            <p class="eyebrow">Pune · India · Global Delegates</p>
             <h1>
               Deccan Queen on Rails
               <span
-                >Where world-class product teams accelerate with Ruby on
-                Rails.</span
+                >Luxury conference design. Elite engineering conversations. Real
+                growth outcomes.</span
               >
             </h1>
             <p class="lead">
-              An ultra-premium, international Rails event inspired by the
-              legendary Deccan Queen train — combining engineering depth,
-              startup velocity, and the cultural heartbeat of Pune.
+              Inspired by the iconic Deccan Queen and the velocity of Ruby on
+              Rails, this flagship summit brings together international CTOs,
+              founders, architects, and product leaders in Pune for an
+              unforgettable, business-defining experience.
             </p>
+
             <div class="hero-cta">
-              <a href="#schedule" class="btn">View Program</a>
-              <a href="#sponsors" class="btn btn-outline">Sponsor the Event</a>
+              <a href="#schedule" class="btn js-scroll-link">Explore Program</a>
+              <a href="#sponsors" class="btn btn-light js-scroll-link"
+                >Become a Sponsor</a
+              >
+            </div>
+
+            <div class="hero-stats">
+              <article>
+                <h3>1,200+</h3>
+                <p>Global attendees</p>
+              </article>
+              <article>
+                <h3>40+</h3>
+                <p>Elite speakers</p>
+              </article>
+              <article>
+                <h3>3 Days</h3>
+                <p>High-impact tracks</p>
+              </article>
             </div>
           </div>
+
           <aside class="event-card" aria-label="Event Highlights">
-            <h2>Event Snapshot</h2>
-            <ul>
-              <li><strong>Date:</strong> 14–16 November 2026</li>
-              <li><strong>Venue:</strong> JW Marriott Pune</li>
-              <li>
-                <strong>Audience:</strong> CTOs, Founders, Senior Engineers
-              </li>
-              <li>
-                <strong>Format:</strong> Keynotes · Workshops · Networking
-              </li>
-            </ul>
+            <div class="card-chip">Event Snapshot</div>
+            <h2>
+              A premium Rails summit inspired by the legendary Deccan Queen.
+            </h2>
+            <div class="snapshot-grid">
+              <article>
+                <span>Event</span>
+                <strong>Deccan Queen on Rails 2026</strong>
+              </article>
+              <article>
+                <span>Date</span>
+                <strong>14–16 November 2026</strong>
+              </article>
+              <article>
+                <span>Venue</span>
+                <strong>JW Marriott, Pune</strong>
+              </article>
+              <article>
+                <span>Audience</span>
+                <strong>CTOs · Founders · Principal Engineers</strong>
+              </article>
+              <article>
+                <span>Tracks</span>
+                <strong>Architecture · AI · Security · Scale</strong>
+              </article>
+              <article>
+                <span>Focus</span>
+                <strong>Business impact through elite engineering</strong>
+              </article>
+            </div>
           </aside>
         </div>
       </section>
 
-      <section id="about" class="section">
+      <section id="about" class="section page-section">
         <div class="container section-intro">
           <p class="eyebrow">About Event</p>
-          <h2>Built for teams shipping at global scale</h2>
+          <h2>Designed for companies that build at global scale</h2>
           <p>
-            Deccan Queen on Rails is crafted for engineering leaders and product
-            builders who want to move from good architecture to exceptional
-            execution. Expect strategic keynotes, deep technical tracks, and
-            high-value networking with international attendees.
+            Deccan Queen on Rails is a premium international event focused on
+            practical innovation in Ruby on Rails. From product velocity and
+            developer experience to cloud architecture and performance
+            engineering, every session is curated for teams that want
+            excellence, not average.
           </p>
         </div>
       </section>
 
-      <section id="speakers" class="section section-dark">
+      <section id="speakers" class="section section-tint page-section">
         <div class="container">
           <p class="eyebrow">Speakers</p>
-          <h2>Leaders from high-growth startups and global tech</h2>
+          <h2>Visionaries from global technology and high-growth startups</h2>
           <div class="cards three-col">
-            <article class="card">
+            <article class="card speaker-card">
               <h3>Aarav Kulkarni</h3>
-              <p>VP Engineering, FluxStack</p>
-              <p>Scaling multi-tenant Rails platforms for 50M+ users.</p>
+              <p class="role">VP Engineering, FluxStack</p>
+              <p>
+                Scaling multi-tenant Rails platforms for 50M+ users with high
+                reliability and enterprise-grade governance.
+              </p>
             </article>
-            <article class="card">
+            <article class="card speaker-card">
               <h3>Naomi Rivera</h3>
-              <p>Principal Architect, NovaForge</p>
-              <p>Modern monolith patterns that outperform microservices.</p>
+              <p class="role">Principal Architect, NovaForge</p>
+              <p>
+                Modern monolith architecture patterns that accelerate delivery
+                while preserving operational simplicity.
+              </p>
             </article>
-            <article class="card">
+            <article class="card speaker-card">
               <h3>Kenji Watanabe</h3>
-              <p>Founder, Ruby Velocity Labs</p>
-              <p>AI-enabled productivity workflows inside Rails teams.</p>
+              <p class="role">Founder, Ruby Velocity Labs</p>
+              <p>
+                AI-driven developer workflows that help Rails teams ship faster
+                with better code quality and fewer regressions.
+              </p>
             </article>
           </div>
         </div>
       </section>
 
-      <section id="schedule" class="section">
+      <section id="schedule" class="section page-section">
         <div class="container">
           <p class="eyebrow">What Happens On</p>
           <h2>Day-by-day conference journey</h2>
@@ -122,65 +178,105 @@
             <article>
               <h3>Day 1 — Arrival & Vision</h3>
               <p>
-                Global keynote series, Pune welcome reception, and premium
-                networking dinner.
+                International keynotes, opening ceremony, Pune cultural
+                showcase, and executive networking dinner.
               </p>
             </article>
             <article>
               <h3>Day 2 — Technical Mastery</h3>
               <p>
-                Hands-on Rails architecture workshops, performance clinics, and
-                security sessions.
+                Deep-dives on architecture, scaling, performance, security, and
+                hands-on engineering workshops.
               </p>
             </article>
             <article>
-              <h3>Day 3 — Product & Growth</h3>
+              <h3>Day 3 — Product & Partnerships</h3>
               <p>
-                Founder roundtables, growth case studies, and sponsor showcase
-                with closing gala.
+                Growth sessions, founder roundtables, sponsor showcase, and a
+                closing gala for global collaboration.
               </p>
             </article>
           </div>
         </div>
       </section>
 
-      <section id="venue" class="section section-dark">
+      <section id="venue" class="section section-tint page-section">
         <div class="container two-col">
           <div>
             <p class="eyebrow">About the Venue</p>
-            <h2>Premium hospitality in the heart of Pune</h2>
+            <h2>A world-class Pune destination for international guests</h2>
             <p>
-              Hosted at JW Marriott Pune, this venue offers luxury meeting
-              spaces, excellent city access, and a curated business-travel
-              experience for international guests.
+              Hosted at JW Marriott Pune, the venue offers premium hospitality,
+              executive-grade conference infrastructure, and seamless
+              connectivity for domestic and international delegates.
             </p>
           </div>
-          <div class="card venue-facts">
-            <h3>Travel & Accessibility</h3>
-            <ul>
-              <li>Pune International Airport: ~12 km (35 mins)</li>
-              <li>Pune Junction Railway Station: ~6 km (20 mins)</li>
-              <li>Nearby hotels: Conrad, Ritz-Carlton, Sheraton</li>
-              <li>City highlights: Shaniwar Wada, FC Road, Baner</li>
-            </ul>
+          <div class="card venue-card">
+            <div class="card-chip">Travel & Accessibility</div>
+            <div class="travel-grid">
+              <article>
+                <h3>Pune International Airport</h3>
+                <p>~12 km · 35 min</p>
+              </article>
+              <article>
+                <h3>Pune Junction Railway Station</h3>
+                <p>~6 km · 20 min</p>
+              </article>
+              <article>
+                <h3>Business Hotels</h3>
+                <p>Conrad · Sheraton · Ritz-Carlton</p>
+              </article>
+              <article>
+                <h3>City Highlights</h3>
+                <p>Shaniwar Wada · FC Road · Baner</p>
+              </article>
+            </div>
           </div>
         </div>
       </section>
 
-      <section id="sponsors" class="section">
+      <section id="sponsors" class="section page-section">
         <div class="container">
           <p class="eyebrow">Sponsors</p>
-          <h2>Partner with the most influential Rails gathering in India</h2>
-          <div class="cards four-col">
-            <div class="card logo-card">RubyScale</div>
-            <div class="card logo-card">CloudCraft</div>
-            <div class="card logo-card">DeployZen</div>
-            <div class="card logo-card">DataBridge</div>
+          <h2>Partner with India’s most premium Ruby on Rails conference</h2>
+          <div class="cards four-col sponsor-grid">
+            <article class="card logo-card">
+              <span class="pill">Platinum</span>
+              <h3>RubyScale</h3>
+              <p>
+                Engineering acceleration platform for high-growth product
+                companies.
+              </p>
+            </article>
+            <article class="card logo-card">
+              <span class="pill">Gold</span>
+              <h3>CloudCraft</h3>
+              <p>
+                Cloud infrastructure and DevOps excellence for modern Rails
+                teams.
+              </p>
+            </article>
+            <article class="card logo-card">
+              <span class="pill">Gold</span>
+              <h3>DeployZen</h3>
+              <p>
+                CI/CD reliability and release management for scale-focused
+                businesses.
+              </p>
+            </article>
+            <article class="card logo-card">
+              <span class="pill">Innovation</span>
+              <h3>DataBridge</h3>
+              <p>
+                Data systems and analytics architecture for fast-moving SaaS
+                products.
+              </p>
+            </article>
           </div>
           <div class="sponsor-cta">
             <p>
-              Become a sponsor and reach high-intent engineering decision
-              makers.
+              Become a sponsor to access high-intent founders and enterprise
+              engineering leaders.
             </p>
             <a
               class="btn"
@@ -191,21 +287,24 @@
         </div>
       </section>
 
-      <section id="contact" class="section section-dark">
+      <section id="contact" class="section section-tint page-section">
         <div class="container two-col">
           <div>
             <p class="eyebrow">Contact Us</p>
-            <h2>Let’s craft your Deccan Queen on Rails experience</h2>
+            <h2>Tell us how you want to participate</h2>
             <p>
-              For registrations, media opportunities, speaking slots, and
-              partnerships, our team is ready to assist.
+              Reach out for speaking opportunities, group registrations, media
+              access, strategic partnerships, or premium hospitality assistance.
             </p>
           </div>
+
           <form
             class="card contact-form"
             onsubmit="
               event.preventDefault();
-              alert('Thank you! Our team will contact you shortly.');
+              alert(
+                'Thank you for your interest. Our team will contact you shortly.',
+              );
             "
           >
             <label>
@@ -226,16 +325,47 @@
       </section>
     </main>
 
-    <footer class="site-footer">
+    <footer class="site-footer page-section">
       <div class="container footer-wrap">
         <p>
           © 2026 Deccan Queen on Rails. Crafted in Pune for the global Rails
           ecosystem.
         </p>
-        <div>
-          <a href="#home">Back to top ↑</a>
-        </div>
+        <a href="#home" class="js-scroll-link">Back to top ↑</a>
       </div>
     </footer>
+
+    <script>
+      (() => {
+        const header = document.getElementById("top-header");
+        const links = document.querySelectorAll('a.js-scroll-link[href^="#"]');
+
+        const getOffset = () => (header ? header.offsetHeight + 16 : 100);
+
+        const scrollToHash = (hash, pushState = true) => {
+          const target = document.querySelector(hash);
+          if (!target) return;
+          const top =
+            target.getBoundingClientRect().top + window.scrollY - getOffset();
+          window.scrollTo({ top, behavior: "smooth" });
+          if (pushState) history.pushState(null, "", hash);
+        };
+
+        links.forEach((link) => {
+          link.addEventListener("click", (event) => {
+            const hash = link.getAttribute("href");
+            if (!hash || hash === "#") return;
+            event.preventDefault();
+            scrollToHash(hash);
+          });
+        });
+
+        window.addEventListener("load", () => {
+          if (window.location.hash) {
+            setTimeout(() => scrollToHash(window.location.hash, false), 60);
+          }
+        });
+      })();
+    </script>
   </body>
 </html>
